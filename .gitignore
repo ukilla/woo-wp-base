@@ -1,0 +1,14 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Docker volumes (if you export them)
+db_data/
+wp_data/
+
+# OS / editor
+.DS_Store
+.idea
+.vscode
