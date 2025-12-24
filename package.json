@@ -1,0 +1,10 @@
+{
+  "name": "woo-wp-e2e",
+  "private": true,
+  "scripts": {
+    "e2e:install": "npx wc-e2e install",
+    "docker:up": "docker compose -f tests/e2e/docker-compose.yml up -d",
+    "docker:down": "docker compose -f tests/e2e/docker-compose.yml down",
+    "test:e2e": "node --unhandled-rejections=warn ./node_modules/.bin/jest --runInBand"
+  }
+}
