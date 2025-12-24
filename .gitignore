@@ -12,3 +12,7 @@ wp_data/
 .DS_Store
 .idea
 .vscode
+
+# Node.js
+node_modules/
+.cache/
